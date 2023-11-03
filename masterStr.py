@@ -39,12 +39,27 @@
 # print(index)
 
 #Enonse 8
-chenn="Ayiti kapab avanse"
-kantite_index_a=0
-for i in chenn:
-    if(i=="a" or i=="A"):
-        kantite_index_a+=1
-print(kantite_index_a)
+# chaine = "Ayiti kapab avanse"
+# somme_indice_a=0
+# for i,karakte in enumerate(chaine):
+#     if(karakte.lower()=="a"):
+#         print(i)
+#         somme_indice_a+=i
+# print(somme_indice_a)
+
+#Enonse 9
+# chenn="Ayiti kapab avanse"
+# list_index=[]
+# for i,k in enumerate(chenn):
+#     if(k=="a"):
+#         list_index.append(i)
+# print(list_index)
+
+#Enonse 10
+# chenn="Ayiti kapab avanse"
+# chenn2=chenn.replace(" ","")
+# chenn2=chenn2+str(len(chenn2))
+# print(chenn2)
 
 
 
