@@ -1,5 +1,3 @@
-import random
-import string
 #Enonse 1
 # def inverte_mot(mot):
 #     mot_invs = mot[::-1]
@@ -10,13 +8,14 @@ import string
 # print(mo_invs)
 
 #Enonse 2
-
-# def jenere_kod_aleyatwa(n):
-#     karakte = string.ascii_letters 
-#     kod = ''.join(random.choice(karakte) for i  in range(n))
-#     return kod
-# kod_aleyatwa = jenere_kod_aleyatwa(10)
-# print(kod_aleyatwa)
+import random
+import string
+def jenere_kod_aleyatwa(n):
+    karakte = string.ascii_letters 
+    kod = ''.join(random.choice(karakte) for i  in range(n))
+    return kod
+kod_aleyatwa = jenere_kod_aleyatwa(10)
+print(kod_aleyatwa)
 
 #Enonse 3
 def kod_aleyatwa(k):
@@ -25,9 +24,6 @@ def kod_aleyatwa(k):
     code=''.join(let_tire)
     return code
 kod=kod_aleyatwa(5)
-print(kod)
-
-#Enonse 4
-
+print
     
 

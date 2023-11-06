@@ -68,7 +68,7 @@
 # lis_resulta = list(diksyonè_orijinal.items())
 # print(lis_resulta)
 
-#Enonse 9
+Enonse 9
 lis_tipl = [("a", 1), ("b", 2)]
 diksyonè_resulta = {}
 for kle,vale in lis_tipl:

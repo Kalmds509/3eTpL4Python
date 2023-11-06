@@ -26,8 +26,5 @@ def kod_aleyatwa(k):
     return code
 kod=kod_aleyatwa(5)
 print(kod)
-
-#Enonse 4
-
     
 

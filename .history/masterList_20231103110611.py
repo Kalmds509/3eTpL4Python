@@ -1,10 +1,10 @@
 #Enonse 1
-limit=12
-divizib_2=[]
-for i in range(limit+1):
-    if(i%2==0):
-        divizib_2.append(i)
-print(divizib_2)
+# limit=12
+# divizib_2=[]
+# for i in range(limit+1):
+#     if(i%2==0):
+#         divizib_2.append(i)
+# print(divizib_2)
 
 #Enonse 2
 # list_antye = [1, 2, 3, 4, 5, 6, 7, 8]

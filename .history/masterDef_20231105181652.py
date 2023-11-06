@@ -19,15 +19,14 @@ import string
 # print(kod_aleyatwa)
 
 #Enonse 3
-def kod_aleyatwa(k):
-    let=string.ascii_letters
-    let_tire=random.sample(let,k)
-    code=''.join(let_tire)
-    return code
-kod=kod_aleyatwa(5)
-print(kod)
+# def kod_aleyatwa(k):
+#     let=string.ascii_letters
+#     let_tire=random.sample(let,k)
+#     code=''.join(let_tire)
+#     return code
+# kod=kod_aleyatwa(5)
+# print(kod)
 
-#Enonse 4
 
     
 

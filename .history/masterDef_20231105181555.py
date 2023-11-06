@@ -1,5 +1,4 @@
-import random
-import string
+
 #Enonse 1
 # def inverte_mot(mot):
 #     mot_invs = mot[::-1]
@@ -26,8 +25,5 @@ def kod_aleyatwa(k):
     return code
 kod=kod_aleyatwa(5)
 print(kod)
-
-#Enonse 4
-
     
 

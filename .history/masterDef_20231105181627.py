@@ -23,11 +23,8 @@ def kod_aleyatwa(k):
     let=string.ascii_letters
     let_tire=random.sample(let,k)
     code=''.join(let_tire)
-    return code
+    return let_tire
 kod=kod_aleyatwa(5)
 print(kod)
-
-#Enonse 4
-
     
 
