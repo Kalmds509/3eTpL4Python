@@ -1,7 +1,7 @@
 #Enonse 1
-diksyone={'kle1':1,'kle2':2,'kle3':3,'kle4':4}
-for i in diksyone:
-    print(diksyone[i])
+# diksyone={'kle1':1,'kle2':2,'kle3':3,'kle4':4}
+# for i in diksyone:
+#     print(diksyone[i])
 
 #Enonse 2
 # vale=input("ekri yon vale")
@@ -76,15 +76,20 @@ for i in diksyone:
 # print(diksyonè_resulta)
 
 #Enonse 10
-# diksyone1 = {"a": 1, "b": "Kalancia", "c": [1, 2], "d": "world"}
-# diksyone2 = {"a": 2, "b": " St Martin", "c": [3, 4], "e": "extra"}
-# nouvo_diksyone = {}
-# for kle in set(diksyone1.keys()) | set(diksyone2.keys()):
-#     if isinstance(diksyone1.get(kle), int) and isinstance(diksyone2.get(kle), int):
-#         nouvo_diksyone[kle] = diksyone1.get(kle)+diksyone2.get(kle)
-#     elif isinstance( diksyone1.get(kle), (str, list, set)) and isinstance(diksyone2.get(kle), (str, list, set)):
-#         nouvo_diksyone[kle] = diksyone1.get(kle) + diksyone2.get(kle)
-# print(nouvo_diksyone)
+diksyone1 = {"a": 1, "b": "Kalancia", "c": [1, 2], "d": "world"}
+diksyone2 = {"a": 2, "b": " St Martin", "d": [3, 4], "e": "extra"}
+
+nouvo_diksyone = {}
+
+for kle in set(diksyone1.keys()) | set(diksyone2.keys()):
+
+
+    if isinstance(diksyone1.get(kle), int) and isinstance(diksyone2.get(kle), int):
+        nouvo_diksyone[kle] = diksyone1.get(kle)+diksyone2.get(kle)
+    elif isinstance( diksyone1.get(kle), (str, list, set)) and isinstance(diksyone2.get(kle), (str, list, set)):
+        nouvo_diksyone[kle] = diksyone1.get(kle) + diksyone2.get(kle)
+
+print(nouvo_diksyone)
 
 
     
